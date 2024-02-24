@@ -1,21 +1,8 @@
-import Message from './Message'
+import ListGroup from "./components/ListGroup";
 
-function MyButton() {
-  return (
-    <button>
-      I'm a button
-    </button>
-  );
-}
+function App() {
+ return <div><ListGroup /></div>;
+    }
 
-export default function MyApp() {
-  return (
-    <div>
-      <h1>Welcome to my app</h1>
-      <MyButton />
-      <Message />
-    </div>
-  );
-}
-
+export default App;
 
